@@ -24,7 +24,7 @@ public class RequestResponse {
         System.out.println("Header | Server :" + response.header("Server"));
 
         // Header bölümünden tüm başlıklar nasıl yazdırılır?
-        System.out.println("Header : \n" + response.headers());
+        System.out.println("Headers : \n" + response.headers());
 
         // Time bilgisi nasıl yazdırılır?
         System.out.println("Time:" + response.time());
